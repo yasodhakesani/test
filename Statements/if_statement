@@ -1,0 +1,25 @@
+"""
+if condition:
+    statements
+
+"""
+a=10
+b=20
+if a>b:
+    def sub():
+        x=a-b
+        print(x)
+print("result  provide negative value")
+
+
+def div(a,b):
+    if b!=0:
+        result=a/b
+        print(result)
+    else:
+        print("zero should not pass as second arg")
+        
+    
+
+div(10,0)
+div(10,2)

@@ -1,0 +1,23 @@
+#The number of variables must match the number of values in the tuple
+
+fruits = ("apple", "banana", "cherry")
+(x,y,z)=fruits
+print(x)
+print(y)
+print(z)
+# if not, you must use an asterisk to collect the remaining values as a list.
+t = ("apple", "banana", "cherry","kiwi","orange")
+(a,b,*c)=t
+print(a,b,c)
+print(type(a))
+print(type(c)) #type(c) is list after unpack tuple when *aribtrary arg passed
+
+fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
+
+(green, *tropic, red) = fruits
+#green="apple"
+#tropic=["mango", "papaya", "pineapple"]
+#red="cherry"
+print(green)
+print(tropic)
+print(red)
